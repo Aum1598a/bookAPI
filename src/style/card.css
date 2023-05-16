@@ -1,0 +1,65 @@
+  .my-heading {
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+    max-width: 20ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .my-heading:hover {
+    max-width: auto;
+    color: #737373;
+    overflow: visible;
+    white-space: normal;
+  }
+
+  .rectangle {
+    width: 190px;
+    height: 350px;
+    background: #d9d9d9;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+
+  .BoxImg{
+    height: 245px;
+    overflow: hidden;
+    z-index:-1;
+  }
+
+  .BoxImg img{
+    height:100%;
+  }
+
+  .ButCategory{
+    background: #D9D9D9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25), inset 0px -1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    display: inline-block;
+    padding-bottom: 1px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+  }
+  .TextCard{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    color: #737373;
+  
+  }
+  .content{
+    width: 100%;
+    background: #D9D9D9;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .ButtonEdit{
+    margin-top: 5px;
+    margin-right: 10px;
+    display: flex;
+  }

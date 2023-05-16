@@ -1,0 +1,39 @@
+.Details{
+    width: 677px;
+    height: 100%;
+}
+.BoxImgDetails{
+width: 220px;
+height: auto;
+}
+
+.BoxImgDetails img{
+    width:  100%;
+    height: auto;
+}
+
+.BoxTextDetails{
+    width:auto;
+    height: auto;
+}
+
+.Texttitle {
+    font-size: 24px;
+    color: white;
+  }
+  .TextDetails{
+    font-size: 16px;
+  }
+
+  .statusDetails{
+    height: 30px;
+    padding-top: 2px;
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+  }
+
+  .BoxDescription{
+    width: 750px;
+    height: auto;
+  }
